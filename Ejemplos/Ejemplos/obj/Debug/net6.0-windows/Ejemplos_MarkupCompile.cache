@@ -1,5 +1,5 @@
 ﻿Ejemplos
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\App.xaml
 2868240762
 
-6154991424
+4-1139562052
 194237474483
 ejemplo_ventana.xaml;MainWindow.xaml;
 
-True
+False
 

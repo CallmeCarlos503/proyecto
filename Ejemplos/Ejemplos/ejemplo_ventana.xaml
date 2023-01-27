@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ejemplos.ejemplo_ventana"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejemplos"
+        mc:Ignorable="d"
+        Title="ejemplo_ventana" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="49,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="107" FontSize="14"><Run Language="es-sv" Text="Numero 1:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="49,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Height="22" FontSize="14"><Run Text="Numero 2"/><Run Language="es-sv" Text=":"/></TextBlock>
+        <TextBox x:Name="txtn1" HorizontalAlignment="Left" Margin="140,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtn2" HorizontalAlignment="Left" Margin="140,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

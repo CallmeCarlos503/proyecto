@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
@@ -23,6 +24,14 @@ namespace Ejemplos
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ejemplo_ventana ej = new ejemplo_ventana();
+            MainWindow index = new MainWindow();
+            index.Hide();
+            ej.Show();
         }
     }
 }
