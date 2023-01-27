@@ -28,10 +28,14 @@ namespace Ejemplos
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ejemplo_ventana ej = new ejemplo_ventana();
-            MainWindow index = new MainWindow();
-            index.Hide();
-            ej.Show();
+            ejemplo_ventana ej = new ejemplo_ventana(); //! Programacion orientados a objetos, invocacion del formulario ventana
+            ej.Show(); //! invocacion de la ventana
+        }
+
+        private void btn__Click(object sender, RoutedEventArgs e)
+        {
+            ejermplos_controles_diseño disenio = new ejermplos_controles_diseño(); 
+            disenio.Show();
         }
     }
 }

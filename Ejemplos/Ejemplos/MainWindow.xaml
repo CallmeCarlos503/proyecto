@@ -8,7 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="MENU DE EJEMPLOS" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Height="61" Width="538" FontFamily="Arial Rounded MT Bold" FontSize="48" FontWeight="Bold" FontStyle="Italic"/>
-        <Button Content="Ejemplos de &#xD;&#xA;controles de ventana" HorizontalAlignment="Left" Margin="30,160,0,0" VerticalAlignment="Top" Height="42" Width="199" Click="Button_Click" FontWeight="Bold"/>
+        <Button Content="Ejemplos de &#xD;&#xA;controles de ventana" HorizontalAlignment="Left" Margin="30,160,0,0" VerticalAlignment="Top" Height="42" Width="199" Click="Button_Click" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="btn_Controles_de_disenio" Content="Controles de diseño" HorizontalAlignment="Left" Height="45" Margin="30,247,0,0" VerticalAlignment="Top" Width="199" FontSize="14" FontWeight="Bold" FontStyle="Italic" Click="btn__Click"/>
 
     </Grid>
 </Window>
