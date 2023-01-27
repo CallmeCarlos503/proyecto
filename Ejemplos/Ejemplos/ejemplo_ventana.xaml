@@ -11,6 +11,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="49,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Height="22" FontSize="14"><Run Text="Numero 2"/><Run Language="es-sv" Text=":"/></TextBlock>
         <TextBox x:Name="txtn1" HorizontalAlignment="Left" Margin="140,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtn2" HorizontalAlignment="Left" Margin="140,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnsumar" Content="Sumar" HorizontalAlignment="Left" Margin="572,43,0,0" VerticalAlignment="Top" Height="56" Width="186" Click="btnsumar_Click"/>
+        <Button x:Name="btnRestar" Content="Restar" HorizontalAlignment="Left" Margin="572,115,0,0" VerticalAlignment="Top" Height="56" Width="186" Click="btnRestar_Click"/>
 
     </Grid>
 </Window>
