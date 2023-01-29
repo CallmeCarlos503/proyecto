@@ -7,14 +7,23 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Control_de_texto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ejemplo_ventana.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ejermplos_controles_diseño.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="presentacion_de_Datos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Control_de_texto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ejemplo_ventana.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -22,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="presentacion_de_Datos.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

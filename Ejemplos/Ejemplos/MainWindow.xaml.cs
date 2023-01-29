@@ -37,5 +37,17 @@ namespace Ejemplos
             ejermplos_controles_diseño disenio = new ejermplos_controles_diseño(); 
             disenio.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            presentacion_de_Datos Datos = new presentacion_de_Datos();
+            Datos.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Control_de_texto txt= new Control_de_texto();
+            txt.Show();
+        }
     }
 }

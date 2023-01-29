@@ -8,8 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="MENU DE EJEMPLOS" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Height="61" Width="538" FontFamily="Arial Rounded MT Bold" FontSize="48" FontWeight="Bold" FontStyle="Italic"/>
-        <Button Content="Ejemplos de &#xD;&#xA;controles de ventana" HorizontalAlignment="Left" Margin="30,160,0,0" VerticalAlignment="Top" Height="42" Width="199" Click="Button_Click" FontWeight="Bold" FontStyle="Italic"/>
-        <Button x:Name="btn_Controles_de_disenio" Content="Controles de diseño" HorizontalAlignment="Left" Height="45" Margin="30,247,0,0" VerticalAlignment="Top" Width="199" FontSize="14" FontWeight="Bold" FontStyle="Italic" Click="btn__Click"/>
+        <Button Content="Ejemplos de &#xD;&#xA;controles de ventana" Margin="0,160,0,0" VerticalAlignment="Top" Height="57" Width="329" Click="Button_Click" FontWeight="Bold" FontStyle="Italic" FontSize="18" HorizontalAlignment="Left" HorizontalContentAlignment="Center" BorderBrush="#FF5F5F5F"/>
+        <Button x:Name="btn_Controles_de_disenio" Content="Controles de diseño" HorizontalAlignment="Left" Height="45" Margin="0,247,0,0" VerticalAlignment="Top" Width="329" FontSize="18" FontWeight="Bold" FontStyle="Italic" Click="btn__Click"/>
+        <Button Content="Controles de presentacion de datos" HorizontalAlignment="Left" Height="42" Margin="0,312,0,0" VerticalAlignment="Top" Width="329" Click="Button_Click_1" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="Control de texto" HorizontalAlignment="Left" Margin="555,157,0,0" VerticalAlignment="Top" Height="53" Width="245" FontSize="18" FontWeight="Bold" FontStyle="Italic" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

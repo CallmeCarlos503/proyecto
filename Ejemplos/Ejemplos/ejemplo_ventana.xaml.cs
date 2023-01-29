@@ -24,64 +24,20 @@ namespace Ejemplos
             InitializeComponent();
         }
 
-        private void btnsumar_Click(object sender, RoutedEventArgs e)
+       
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            // todo: try es un sistema de intentos del programa, evita los ererores de cualquier proceso o medida y lo manda a un catch
-            try
-            {
-                int n1, n2;
-                n1 = Convert.ToInt32(txtn1.Text); // ? Variable que toma  txtn1 del formulario
-                n2 = Convert.ToInt32(txtn2.Text); //?  Variable que toma el valor de txtn2 del formulario
-                //! Base logica
-                if (n1 >=0 &&  n2>=0)
-                {
-                    //! Respuesta logica 1
-                    MessageBox.Show("La suma de ambos valores fue de: " + (n1 + n2));
-                }
-                else
-                {
-                    //! Caso si no existe respuesta logica 1
-                    MessageBox.Show("Tienen que ser valores positivos");
-                }
-                
-            }
-
-            catch (Exception ex) //todo: Base de excepcion, si existe un error se activa e evita el proceso de cerrado forzado
-            {
-                MessageBox.Show("Error: Los valores no son numericos"); //! Msj de error si existe una falla en la aplicacion
-
-            }
-
-
+            this.Close();
         }
 
-        private void btnRestar_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            // todo: try es un sistema de intentos del programa, evita los ererores de cualquier proceso o medida y lo manda a un catch
-            try
-            {
-                int n1, n2;
-                n1 = Convert.ToInt32(txtn1.Text); // ? Variable que toma  txtn1 del formulario
-                n2 = Convert.ToInt32(txtn2.Text); //?  Variable que toma el valor de txtn2 del formulario
-
-                // ! Base logica
-                if (n1 >= 0 && n2 >=0)
-                {
-                    //! respuesta logica 1
-                    MessageBox.Show("La resta de ambos valores fue de: " + (n1 - n2)); 
-                }
-                else
-                {
-                    //! sino se cumple la respuesta logica 1
-                    MessageBox.Show("Tienen que ser valores mayores o iguales  a 0"); //! repuesta logica sino
-                }
-            }
-            catch (Exception ex) //todo: Base de excepcion, si existe un error se activa e evita el proceso de cerrado forzado
-
-            {
-                MessageBox.Show("Error: Los valores no son numericos"); //! Mensaje de error si existe una falla en la aplicacion
-
-            }
+            WindowState = WindowState.Minimized;
+        }
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Maximized;
         }
     }
 }

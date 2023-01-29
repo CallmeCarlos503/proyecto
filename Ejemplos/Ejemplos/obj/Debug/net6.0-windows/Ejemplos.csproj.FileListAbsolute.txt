@@ -23,3 +23,7 @@ C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Eje
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\ref\Ejemplos.dll
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\ejermplos_controles_diseño.g.cs
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\ejermplos_controles_diseño.baml
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\presentacion_de_Datos.g.cs
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\presentacion_de_Datos.baml
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Control_de_texto.g.cs
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Control_de_texto.baml

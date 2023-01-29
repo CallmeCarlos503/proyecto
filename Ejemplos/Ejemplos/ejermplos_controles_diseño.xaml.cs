@@ -24,6 +24,7 @@ namespace Ejemplos
         {
             InitializeComponent();
 
+            tbMSJ.Text = ""; //! Reiniciador de mensajes
             //! Agregar valores a la lista del cbo_Genero
             var genero = new List<string>() {
              "Hombre",
@@ -66,6 +67,26 @@ namespace Ejemplos
 
         }
 
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                
+                string NombreE; //! Asignador de Nombre del evento
+                String Fecha; //! Asignador de fechas
+                NombreE = Convert.ToString(txt_evento.Text);
+                Fecha = Convert.ToString(txtFecha.Text);
+                MessageBox.Show("Su evento sera el "+Fecha+" el nombre del evento se constituye en "+NombreE);
+                string msj = "𓆝 𓆟 𓆞 𓆝 𓆟 Sus datos se han insertado con exito 𓆝 𓆟 𓆞 𓆝 𓆟";
+                tbMSJ.Text= msj;
+                
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: Existio un error de caracter " + ex);
+            }
+            
+        }
     }
 }
