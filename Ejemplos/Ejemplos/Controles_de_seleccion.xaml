@@ -27,8 +27,9 @@
                         <ColumnDefinition Width="11*"/>
                         <ColumnDefinition Width="386*"/>
                     </Grid.ColumnDefinitions>
-                  
+
                     <Button Grid.Column="1" Content="Generar mensaje" HorizontalAlignment="Left" Height="78" Margin="260,282,0,0" VerticalAlignment="Top" Width="230" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+                   
 
 
 
