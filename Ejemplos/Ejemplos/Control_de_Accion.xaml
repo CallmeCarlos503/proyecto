@@ -1,0 +1,31 @@
+﻿<Window x:Class="Ejemplos.Control_de_Accion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:Ejemplos"
+        mc:Ignorable="d"
+        Title="Control_de_Accion" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Ejercicio 1">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="EJERCICIO 1" HorizontalAlignment="Center" Height="55" Margin="0,10,0,0" VerticalAlignment="Top" Width="146" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
+                    <Button Content="Producir Mensaje" HorizontalAlignment="Left" Height="70" Margin="234,259,0,0" VerticalAlignment="Top" Width="289" FontSize="18" FontWeight="Bold" Click="Button_Click_2"/>
+                    <TextBlock x:Name="txtB_HolaMundo" HorizontalAlignment="Center" Height="80" Margin="0,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="36" FontWeight="Bold" FontStyle="Italic"><Run Language="es-sv" Text="Hola Mundo"/></TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Ejercicio 2">
+
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="EJERCICIO  2" HorizontalAlignment="Center" Height="50" Margin="0,27,0,0" VerticalAlignment="Top" Width="132" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
+                    <Image x:Name="img_guapo" Visibility="Hidden" HorizontalAlignment="Center" Height="178" Margin="0,82,0,0" VerticalAlignment="Top" Width="244" Source="/github.jpg"/>
+                    <Button Content="Generar imagen" HorizontalAlignment="Left" Margin="275,279,0,0" VerticalAlignment="Top" Height="46" Width="222" FontSize="18" FontWeight="Bold" FontStyle="Italic" Click="Button_Click_1"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>

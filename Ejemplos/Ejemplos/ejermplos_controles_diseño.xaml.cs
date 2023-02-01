@@ -23,7 +23,7 @@ namespace Ejemplos
         public ejermplos_controles_diseño()
         {
             InitializeComponent();
-
+            canva.Visibility = Visibility.Hidden;
             tbMSJ.Text = ""; //! Reiniciador de mensajes
             //! Agregar valores a la lista del cbo_Genero
             var genero = new List<string>() {
@@ -57,7 +57,15 @@ namespace Ejemplos
                 Nombre = Convert.ToString(txtNombre.Text); //! copiar los datos de la caja de texto
                 Genero = Convert.ToString(cbo_Genero.Text); //! copiar los datos de la combo box de genero
                 Comida = Convert.ToString(cbo_comida.Text); //!Copiar los datos de la combo box de comida
-                MessageBox.Show("Hola "+Nombre+" tu genero es "+Genero+" es un gusto conocerte, me han hablado que te gusta mucho la "+Comida); //! Mensaje resultante
+                if(Nombre=="" || Genero==""|| Comida == "")
+                {
+                    MessageBox.Show("Por favor, llenar por completo el formulario");
+                }
+                else
+                {
+                    txtb_msj.Text = "BIENVENIDO \n tu nombre es: " + Nombre + " \n  tu genero es:  " + Genero + "\n Tu comida Favorita es:  " + Comida; //! Mensaje resultante
+                }
+                
             }
             catch(Exception ex)
             {
@@ -76,9 +84,16 @@ namespace Ejemplos
                 String Fecha; //! Asignador de fechas
                 NombreE = Convert.ToString(txt_evento.Text);
                 Fecha = Convert.ToString(txtFecha.Text);
-                MessageBox.Show("Su evento sera el "+Fecha+" el nombre del evento se constituye en "+NombreE);
-                string msj = "𓆝 𓆟 𓆞 𓆝 𓆟 Sus datos se han insertado con exito 𓆝 𓆟 𓆞 𓆝 𓆟";
-                tbMSJ.Text= msj;
+                if(NombreE=="" || Fecha == "")
+                {
+                    MessageBox.Show("Por favor, llenar por completo el formulario");
+                }
+                else
+                {
+                    string msj = "Fecha: " + Fecha + "\n Nombre del evento: " + NombreE;
+                    tbMSJ.Text = msj;
+                    canva.Visibility = Visibility.Visible;
+                }
                 
 
             }

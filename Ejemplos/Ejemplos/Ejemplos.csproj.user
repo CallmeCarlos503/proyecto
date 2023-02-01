@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Controles_de_seleccion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Control_de_Accion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Control_de_texto.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -21,6 +27,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Controles_de_seleccion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Control_de_Accion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Control_de_texto.xaml">
       <SubType>Designer</SubType>
     </Page>

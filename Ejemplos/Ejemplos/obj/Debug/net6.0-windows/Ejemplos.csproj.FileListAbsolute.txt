@@ -27,3 +27,7 @@ C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\pre
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\presentacion_de_Datos.baml
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Control_de_texto.g.cs
 C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Control_de_texto.baml
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Controles_de_seleccion.g.cs
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Controles_de_seleccion.baml
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Control_de_Accion.g.cs
+C:\Users\carlo\Documents\proyecto\Ejemplos\Ejemplos\obj\Debug\net6.0-windows\Control_de_Accion.baml

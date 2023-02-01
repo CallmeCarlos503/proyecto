@@ -1,0 +1,40 @@
+﻿<Window x:Class="Ejemplos.Controles_de_seleccion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejemplos"
+        mc:Ignorable="d"
+        Title="Controles_de_seleccion" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Ejercicio 1">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="113*"/>
+                        <ColumnDefinition Width="681*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left" Margin="197,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="107" FontSize="18" FontStyle="Italic" FontWeight="Bold" Grid.Column="1"><Run Language="es-sv" Text="Ejercicio 1"/></TextBlock>
+                    <Label Content="Selecciona tu color Favorito&#xD;&#xA;" HorizontalAlignment="Left" Height="32" Margin="40,111,0,0" VerticalAlignment="Top" Width="255" FontSize="18" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"/>
+                    <ComboBox x:Name="cbo_color" IsEditable="True" Text="Selecciona un color" HorizontalAlignment="Left" Margin="186,116,0,0" VerticalAlignment="Top" Width="196" Height="27" FontSize="18" FontStyle="Italic" FontWeight="Bold" Grid.Column="1"/>
+                    <Button Content="Generar" HorizontalAlignment="Left" Height="60" Margin="150,279,0,0" VerticalAlignment="Top" Width="221" FontStyle="Italic" FontWeight="Bold" FontSize="18" Click="Button_Click" Grid.Column="1"/>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Ejercicio 2">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="386*"/>
+                    </Grid.ColumnDefinitions>
+                  
+                    <Button Grid.Column="1" Content="Generar mensaje" HorizontalAlignment="Left" Height="78" Margin="260,282,0,0" VerticalAlignment="Top" Width="230" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+
+
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

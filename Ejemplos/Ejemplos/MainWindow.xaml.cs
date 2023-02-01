@@ -49,5 +49,17 @@ namespace Ejemplos
             Control_de_texto txt= new Control_de_texto();
             txt.Show();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Controles_de_seleccion seleccion= new Controles_de_seleccion();
+            seleccion.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Control_de_Accion accion= new Control_de_Accion();
+            accion.Show();
+        }
     }
 }

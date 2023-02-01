@@ -18,10 +18,20 @@
                     <TextBlock HorizontalAlignment="Left" Height="35" Margin="21,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontStyle="Italic" FontWeight="Bold" FontSize="18" Grid.ColumnSpan="2"><Run Language="es-sv" Text="Selecciona tu genero"/></TextBlock>
                     <TextBlock HorizontalAlignment="Left" Height="32" Margin="21,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"><Run Language="es-sv" Text="Tu Nombre:"/></TextBlock>
                     <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="155,83,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="247" Height="32" FontSize="18" Grid.Column="1"/>
-                    <Button x:Name="btn_Generar" Content="GENERAR" HorizontalAlignment="Left" Height="66" Margin="155,285,0,0" VerticalAlignment="Top" Width="254" FontSize="18" FontWeight="Bold" FontStyle="Italic" Click="btn_Generar_Click" Grid.Column="1"/>
                     <TextBlock HorizontalAlignment="Left" Height="45" Margin="21,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" FontSize="18" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"><Run Language="es-sv" Text="Tu comida Favorita"/></TextBlock>
                     <ComboBox x:Name="cbo_comida" IsEditable="True" Text="Selecciona tu comida" HorizontalAlignment="Left" Height="34" Margin="150,217,0,0" VerticalAlignment="Top" Width="259" FontSize="16" FontWeight="Bold" FontStyle="Italic" Grid.Column="1"/>
                     <Label Content="EJERCICIO 1" HorizontalAlignment="Left" Margin="145,10,0,0" VerticalAlignment="Top" Width="267" Height="47" FontSize="20" FontWeight="Bold" FontStyle="Italic" Grid.Column="1"/>
+                    <Canvas Grid.Column="1" Margin="468,0,0,0">
+                        <Canvas.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FFA92929" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Canvas.Background>
+                        <Button x:Name="btn_Generar" Content="GENERAR" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="154" FontSize="18" FontWeight="Bold" FontStyle="Italic" Click="btn_Generar_Click" Grid.Column="1" Canvas.Left="50" Canvas.Top="296"/>
+                        <TextBlock x:Name="txtb_msj" Height="214" Canvas.Left="22" TextWrapping="Wrap" Canvas.Top="10" Width="210" FontWeight="Bold" FontStyle="Italic" Foreground="White" FontSize="18" Text="" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    </Canvas>
                 </Grid>
             </TabItem>
             <TabItem Header="Ejercicio 2">
@@ -32,7 +42,14 @@
                     <TextBox x:Name="txt_evento" HorizontalAlignment="Left" Margin="214,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" Height="28" FontSize="18"/>
                     <TextBox x:Name="txtFecha" HorizontalAlignment="Left" Margin="214,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" Height="29" FontSize="18"/>
                     <Label Content="Fecha del Evento" HorizontalAlignment="Left" Margin="16,198,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.614,0.099" Width="164" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
-                    <TextBlock x:Name="tbMSJ" HorizontalAlignment="Left" Margin="461,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="312" Text="         " FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+                    <TextBlock x:Name="tbMSJ" HorizontalAlignment="Left" Margin="472,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="312" Text="         " FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
+                    <DockPanel LastChildFill="False"/>
+                    <WrapPanel/>
+                    <Canvas x:Name="canva" HorizontalAlignment="Left" Height="157" Margin="603,249,0,0" VerticalAlignment="Top" Width="191">
+                        <Canvas.Background>
+                            <ImageBrush ImageSource="/Almacenes_exito_logo.svg.png"/>
+                        </Canvas.Background>
+                    </Canvas>
                 </Grid>
             </TabItem>
         </TabControl>
