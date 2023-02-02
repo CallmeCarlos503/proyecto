@@ -28,10 +28,15 @@
                         <ColumnDefinition Width="386*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button Grid.Column="1" Content="Generar mensaje" HorizontalAlignment="Left" Height="78" Margin="260,282,0,0" VerticalAlignment="Top" Width="230" FontSize="18" FontStyle="Italic" FontWeight="Bold"/>
-                   
-
-
+                    <Button Grid.Column="1" Content="Generar mensaje" HorizontalAlignment="Left" Height="78" Margin="260,282,0,0" VerticalAlignment="Top" Width="230" FontSize="18" FontStyle="Italic" FontWeight="Bold" Click="Button_Click_1"/>
+                    <ComboBox x:Name="cbo_estado" IsEditable="True" Text="ESTADO CIVIL" Grid.Column="1" HorizontalAlignment="Left" Margin="240,89,0,0" VerticalAlignment="Top" Width="250" Height="42" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
+                    <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="42" Margin="21,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" FontSize="18" FontStyle="Italic" FontWeight="Bold"><Run Text="Selecciona el estado civil"/><Run Language="es-sv" Text=":"/></TextBlock>
+                    <RadioButton x:Name="rd_region" IsChecked="True" Grid.Column="1" GroupName="Region" Content="El Salvador" HorizontalAlignment="Left" Margin="273,238,0,0" VerticalAlignment="Top" FontSize="18"/>
+                    <RadioButton x:Name="rd_region1" Grid.Column="1" GroupName="Region" Content="Guatemala" HorizontalAlignment="Left" Margin="274,203,0,0" VerticalAlignment="Top" FontSize="18"/>
+                    <RadioButton x:Name="rd_region2" Grid.Column="1" GroupName="Region" Content="Honduras" HorizontalAlignment="Left" Margin="274,169,0,0" VerticalAlignment="Top" FontSize="18"/>
+                    <RadioButton x:Name="rd_region3" Grid.Column="1" GroupName="Region" Content="Nicaragua" HorizontalAlignment="Left" Margin="406,169,0,0" VerticalAlignment="Top" FontSize="18"/>
+                    <TextBlock Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="42" Margin="21,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="18" FontStyle="Italic" FontWeight="Bold"><Run Language="es-sv" Text="Selecciona tu nacionalidad:"/></TextBlock>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="56" Margin="305,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" FontSize="18" FontWeight="Bold" FontStyle="Italic"><Run Language="es-sv" Text="EJERCICIO 2"/></TextBlock>
 
                 </Grid>
             </TabItem>

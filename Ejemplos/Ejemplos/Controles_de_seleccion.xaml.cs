@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,6 +33,13 @@ namespace Ejemplos
                 "Blanco"
             };
             cbo_color.ItemsSource = colores;
+            var Estados = new List<string>()
+            {
+                "Soltero/a",
+                "Casado/a",
+                "Viudo/a",
+            };
+            cbo_estado.ItemsSource = Estados;
             
         }
 
@@ -42,6 +50,35 @@ namespace Ejemplos
 
         }
 
-        
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                String region = "";
+                if (rd_region.IsChecked == true)
+                {
+                    region = "El Salvador";
+                }
+                else if (rd_region1.IsChecked == true)
+                {
+                    region = "Guatemala";
+                }
+                else if (rd_region2.IsChecked == true)
+                {
+                    region = "Honduras";
+                }
+                else if (rd_region3.IsChecked == true)
+                {
+                    region = "Nicaragua";
+                }
+                MessageBox.Show("Su estado civil es " + cbo_estado.Text+" y tu region es de: "+region); //! Mensaje resultante
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Causa del error: "+ex); //! Mensaje resultante
+
+            }
+
+        }
     }
 }
